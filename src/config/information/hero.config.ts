@@ -23,10 +23,10 @@ export interface HeroConfig {
 export const heroConfig: HeroConfig = {
   coordinateLabel: '10.8231°N, 106.6297°E // HO CHI MINH CITY, VIETNAM',
   name: 'KHOA VU',
-  title: 'GIS SOFTWARE ENGINEER',
+  title: 'GEOSPATIAL ENGINEER - SOFTWARE ENGINEER',
   aboutMe: {
     label: 'About Me',
-    text: 'Senior GIS Engineer with 5 years of experience and a diverse background as a Specialist, Web Developer, Data Engineer, and AI researcher.',
+    text: 'Senior Geospatial Engineer with 5 years of experience and a diverse background as a Specialist, Web Developer, Data Engineer, and AI researcher.',
   },
   whatIDo: {
     label: 'What I Do',
