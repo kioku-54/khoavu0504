@@ -1,30 +1,29 @@
 # My Portfolio
 
-Portfolio website với thiết kế tối giản, lấy cảm hứng từ giao diện GIS/Map với các hiệu ứng animation
+Minimalist portfolio website with GIS/Map-inspired design and smooth animations.
 
-
-## Cài đặt
+## Installation
 
 ```bash
-# Cài đặt dependencies
+# Install dependencies
 npm install
 ```
 
-## Cách sử dụng
+## Usage
 
 ### Development
 
-Chạy development server:
+Run the development server:
 
 ```bash
 npm run dev
 ```
 
-Ứng dụng sẽ chạy tại `http://localhost:5173`
+The application will run at `http://localhost:5173`
 
 ### Build
 
-Tạo production build:
+Create a production build:
 
 ```bash
 npm run build
@@ -32,7 +31,7 @@ npm run build
 
 ### Preview
 
-Xem preview của production build:
+Preview the production build:
 
 ```bash
 npm run preview
@@ -41,20 +40,20 @@ npm run preview
 ### Linting & Formatting
 
 ```bash
-# Kiểm tra lỗi lint
+# Check for linting errors
 npm run lint
 
-# Tự động sửa lỗi lint
+# Automatically fix linting errors
 npm run lint:fix
 
 # Format code
 npm run format
 
-# Kiểm tra format
+# Check code formatting
 npm run format:check
 ```
 
-## Cấu trúc dự án
+## Project Structure
 
 ```
 src/
@@ -72,11 +71,22 @@ src/
 └── App.tsx             # Main app component
 ```
 
-## Chỉnh sửa nội dung
+## Editing Content
 
-Tất cả nội dung text và animation parameters được quản lý trong thư mục `src/config/`:
+All text content and animation parameters are managed in the `src/config/` directory:
 
-- **Nội dung text**: Chỉnh sửa các file trong `src/config/information/`
-- **Animation parameters**: Chỉnh sửa các file trong `src/config/animations/`
+- **Text content**: Edit files in `src/config/information/`
+- **Animation parameters**: Edit files in `src/config/animations/`
 
-Xem chi tiết tại [src/config/README.md](src/config/README.md)
+For detailed information, see:
+- [Config Directory README](src/config/README.md)
+- [Animation Configuration Guide](src/config/ANIMATION.md)
+
+## Technologies Used
+
+- **React 18** - UI Framework
+- **TypeScript** - Type safety
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **Framer Motion** - Animations
+- **Lucide React** - Icons
